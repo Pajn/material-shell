@@ -287,9 +287,10 @@ var MsApplicationButtonContainer = GObject.registerClass(
         }
 
         get monitorScale() {
-            return global.display.get_monitor_scale(
-                this.msWorkspace.monitor.index
-            );
+            return 1;
+            // return global.display.get_monitor_scale(
+            //     this.msWorkspace.monitor.index
+            // );
         }
         get buttonSize() {
             return BUTTON_SIZE * this.monitorScale;

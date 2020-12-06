@@ -133,7 +133,7 @@ var MsThemeManager = class MsThemeManager extends MsManager {
     getPanelSize(monitorIndex) {
         return (
             this.themeSettings.get_int('panel-size') *
-            global.display.get_monitor_scale(monitorIndex)
+            1 // global.display.get_monitor_scale(monitorIndex)
         );
     }
 
