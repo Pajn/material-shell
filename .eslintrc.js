@@ -120,6 +120,7 @@ module.exports = {
         C_: false,
         N_: false,
         ngettext: false,
+        log: false,
     },
     parserOptions: {
         ecmaVersion: 2017,
